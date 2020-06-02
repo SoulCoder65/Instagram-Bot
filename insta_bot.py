@@ -5,9 +5,9 @@ from bs4 import BeautifulSoup
 class InstaBot:
 
     def __init__(self):
-        self.username="_ak_sh__ay"
-        self.id="akshcap65@gmail.com"
-        self.password="ApnaTime65"
+        self.username="" #your username
+        self.id="" #your login id maybe username or gmail
+        self.password="" #your password
 
         chromeOptions=Options()
         chromeOptions.add_experimental_option("prefs",{"download.default_directory":"/home/akshay/Desktop/python/Instagram_boot/images_videos"})
